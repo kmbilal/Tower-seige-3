@@ -83,10 +83,6 @@ function setup() {
 
 function draw() {
 
-  if(backgroundImg){
-    background(backgroundImg);
-}
-
   background(rgb(120, 61, 23));
 
   Engine.update(engine);
